@@ -1,0 +1,30 @@
+p{
+width:10rem;
+height:10rem;
+padding:5px;
+margin:2px;
+color:lime;
+float:left;
+background-color:white;
+flex:1;
+}
+div {
+display:flex;
+justify-content:space-between;
+}
+
+.float-container p:last-of-type{
+color:red;
+display:inline-block;
+
+}
+.float-container p:first-child{
+clear:left;
+}
+
+.float-container{
+
+background-color:darkblue;
+padding:15px;
+margin-bottom:15px;
+}

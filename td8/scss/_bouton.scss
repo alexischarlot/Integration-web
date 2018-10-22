@@ -1,0 +1,33 @@
+@mixin taille($size){
+    @if($size=="small"){
+        height : 20px;
+       
+    }
+    @else if($size =="medium"){
+        height : 75px;
+      
+    }
+    @else if($size =="large"){
+        height : 200px;
+       
+    }
+}
+
+@mixin color($color) {
+    background-color: $color;
+    color : darken($color,60%);
+    
+}
+
+@mixin style($style) {
+    @if($style=="classic"){
+        border: solid black 1px;
+    }
+    @else if($style== "flat"){
+        border:none;
+    }
+    @else if($style=="outline"){
+        border: solid black 1px;
+        background-color: transparent;
+    }
+}

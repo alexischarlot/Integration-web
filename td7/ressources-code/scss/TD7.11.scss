@@ -1,0 +1,12 @@
+@import "TD7.10";
+@import"_content";
+
+$bc:yellow;
+section{
+    @extend .content;
+    border: 2px dashed red;
+    margin:10px;
+   background-color: $bc;
+    
+}
+

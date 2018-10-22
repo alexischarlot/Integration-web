@@ -1,0 +1,74 @@
+@mixin menu () {
+
+    display:flex;
+list-style:none;
+flex-direction:row;
+justify-content:flex-end;
+@media screen and (max-width:640px){
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    }
+    @media screen and (max-width:1080px) and (min-width:640px){
+        flex-content:center;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:stretch;
+    }
+    @media screen and (min-width:1080px){
+        flex-direction:row;
+        justify-content:flex-end;
+        height:75px;
+    }
+}
+
+@mixin couleur ($color:orange){
+    background-color: $color; 
+    
+}
+
+.rouge{
+    @include couleur(red);
+}
+.bleu{
+    @include couleur(cyan);
+}
+.vert{
+    @include couleur(green);
+}
+
+.menu{
+@include menu();
+
+&>li{
+    &>a{
+    text-decoration:none;
+    color:black;
+    font-size : 2em;
+    
+    }
+    border:none;
+margin-left:2%;
+@media screen and (max-width:640px){
+    border-bottom:dashed 1px black;
+    width:93vw;
+    height:23vh;
+    text-align:center;
+}
+@media screen and (max-width:1080px) and (min-width:640px){
+   
+    border:none;
+    width:25vw;
+    
+    text-align:center;
+    }
+
+    @media screen and (min-width:1080px){
+   
+        border:none;
+        margin:15px;
+        
+        }
+}
+
+}

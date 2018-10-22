@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lanf="fr">
+<head>
+        <meta charset="utf-8">
+        <title>Image</title>
+        <meta name="description" content="exercice média-query">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/td3.2.css" >
+</head>
+<body>
+
+<picture> 
+
+<source media=("min-width: 640px)"
+	srcset="img/large/cat-1920x1285.jpg 1900w,
+		img/medium/cat-1024.jpg 1024w"
+	sizes="80w">
+<source srcset="img/crop/cat-cropped-hd.jpg 640w,
+		img/crop/car-cropped-small.jpg 400w" >
+<img src="img/medium/cat-1024.jpg" alt="a cat">
+
+</picture>
+</body>
+</html>

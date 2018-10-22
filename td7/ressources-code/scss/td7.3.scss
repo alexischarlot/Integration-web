@@ -1,0 +1,51 @@
+@import "materialize";
+header{
+    display: block;
+    text-align: center;
+}
+.titre{
+font-size: 3em;
+
+}
+
+nav.navigation{
+    @extend .nav-wrapper;
+
+    &>a:first-child{
+        @extend .brand-logo, .right;
+    }
+}
+.tout-a-gauche{
+    @extend .left-align;
+ width:50%;
+    
+}
+
+
+    .liste-squ{
+        &>li:nth-child(1){
+            color:red;
+        }
+        &>li:nth-child(2){
+            color:green;
+        }
+        &>li:nth-child(3){
+            color:yellow;
+        }
+        &>li:nth-child(4){
+            color:orange;
+        }
+    }
+
+    .tout-a-droite{
+        @extend .right-align; 
+        margin-left:50%;
+       
+        width:50%;
+    }
+    
+    .bien-justifié{
+        @extend .center-align;
+       margin-left:25%;
+       margin-right:25%;
+    }

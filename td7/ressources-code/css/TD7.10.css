@@ -1,0 +1,15 @@
+.content {
+  width: 60%;
+  height: 50%;
+  background-color: aqua;
+  font-size: 20px;
+  padding: 5px; }
+  .content h1 {
+    font-size: 2em;
+    font-weight: 50px;
+    background-color: magenta; }
+    .content h1:hover {
+      font-size: 3em;
+      background-color: #ff99ff; }
+
+/*# sourceMappingURL=TD7.10.css.map */

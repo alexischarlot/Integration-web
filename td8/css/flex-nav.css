@@ -1,0 +1,54 @@
+.rouge {
+  background-color: red; }
+
+.bleu {
+  background-color: cyan; }
+
+.vert {
+  background-color: green; }
+
+.menu {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: flex-end; }
+  @media screen and (max-width: 640px) {
+    .menu {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; } }
+  @media screen and (max-width: 1080px) and (min-width: 640px) {
+    .menu {
+      flex-content: center;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: stretch; } }
+  @media screen and (min-width: 1080px) {
+    .menu {
+      flex-direction: row;
+      justify-content: flex-end;
+      height: 75px; } }
+  .menu > li {
+    border: none;
+    margin-left: 2%; }
+    .menu > li > a {
+      text-decoration: none;
+      color: black;
+      font-size: 2em; }
+    @media screen and (max-width: 640px) {
+      .menu > li {
+        border-bottom: dashed 1px black;
+        width: 93vw;
+        height: 23vh;
+        text-align: center; } }
+    @media screen and (max-width: 1080px) and (min-width: 640px) {
+      .menu > li {
+        border: none;
+        width: 25vw;
+        text-align: center; } }
+    @media screen and (min-width: 1080px) {
+      .menu > li {
+        border: none;
+        margin: 15px; } }
+
+/*# sourceMappingURL=flex-nav.css.map */

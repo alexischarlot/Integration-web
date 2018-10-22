@@ -1,0 +1,17 @@
+@import "_alert";
+
+.alert-success{
+    background-color: $succes;
+}
+
+.cefini{
+    background-color: lighten($danger,19%);
+}
+
+.attention{
+    background-color: $warning;
+}
+
+.message-info{
+    background-color: darken($information,17%);
+}

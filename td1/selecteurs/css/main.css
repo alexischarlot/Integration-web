@@ -1,0 +1,68 @@
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+
+p,
+div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+p:first-child {
+	background-color:midnightblue;
+}
+
+p:last-of-type {
+	background-color:peachpuff;
+}
+
+p:nth-child(5n+3){
+    border: 2px solid grey ;
+}
+
+div.yoyo p:nth-child(4n+2){
+    border: 2px solid red ;
+}
+
+p[title]{
+	background-color: palevioletred;
+}
+
+div.yoyoyo p[title]+p{
+	font-size:20px;
+}
+
+div:last-child p[id*="yo"] {
+	background-color: coral;
+}
+
+div:last-child p[id^="yo"] {
+	background-color: darkcyan;
+}
+
+div.yo p:nth-child(3n+2)::after{
+content : ";-)";
+}
+
+p {
+    width: 5em;
+    height: 5em;
+    line-height: 5em;
+    float: left;
+    background-color: yellowgreen;
+    margin: 1em;
+    border-radius: 10px;
+    text-align: center;
+    color:brown;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    clear: both;
+}

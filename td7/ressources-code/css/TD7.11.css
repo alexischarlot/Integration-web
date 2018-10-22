@@ -1,0 +1,37 @@
+.content, section {
+  width: 60%;
+  height: 50%;
+  background-color: aqua;
+  font-size: 20px;
+  padding: 5px; }
+  .content h1, section h1 {
+    font-size: 2em;
+    font-weight: 50px;
+    background-color: magenta; }
+    .content h1:hover, section h1:hover {
+      font-size: 3em;
+      background-color: #ff99ff; }
+
+.content, section {
+  width: 60%;
+  height: 50%;
+  background-color: aqua;
+  font-size: 20px;
+  padding: 5px; }
+  .content h1, section h1 {
+    font-size: 2em;
+    font-weight: 50px;
+    background-color: magenta; }
+    .content h1:hover, section h1:hover {
+      font-size: 3em;
+      background-color: #ff99ff; }
+  @media screen and (min-width: 70em) {
+    .content, section {
+      background-color: lime; } }
+
+section {
+  border: 2px dashed red;
+  margin: 10px;
+  background-color: yellow; }
+
+/*# sourceMappingURL=TD7.11.css.map */

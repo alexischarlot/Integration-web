@@ -1,0 +1,101 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul{
+
+display:flex;
+list-style:none;
+flex-direction:row;
+justify-content:flex-end;
+
+}
+
+nav{
+background-color:orange;
+}
+li{
+border:none;
+margin-left:2%;
+
+}
+
+a{
+text-decoration:none;
+color:white;
+font-size : 2em;
+
+}
+
+
+@media screen and (max-width:640px){
+ul{
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+
+}
+html{
+background-color:orange;
+}
+li{
+border-bottom:dashed 1px black;
+width:93vw;
+height:23vh;
+text-align:center;
+}
+
+}
+@media screen and (max-width:1080px) and (min-width:640px){
+ul{
+
+flex-content:center;
+flex-direction:row;
+justify-content:space-around;
+align-items:stretch;
+}
+
+
+li{
+border:none;
+width:25vw;
+
+text-align:center;
+}
+}
+
+@media screen and (min-width:1080px){
+ul{
+
+
+
+flex-direction:row;
+justify-content:flex-end;
+height:75px;
+}
+
+
+li{
+border:none;
+margin:15px;
+
+}
+}

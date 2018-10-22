@@ -1,0 +1,48 @@
+.alert-success {
+  border: solid 1px black;
+  background-color: lime; }
+
+.cefini {
+  border: solid 1px black;
+  background-color: red; }
+
+.attention {
+  border: solid 1px black;
+  background-color: orange; }
+
+.message-info {
+  border: solid 1px black;
+  background-color: cyan; }
+
+.btn-small {
+  height: 20px; }
+
+.btn-medium {
+  height: 75px; }
+
+.btn-large {
+  height: 200px; }
+
+.btn-red {
+  background-color: red;
+  color: black; }
+
+.btn-blue {
+  background-color: blue;
+  color: black; }
+
+.btn-green {
+  background-color: green;
+  color: black; }
+
+.btn-flat {
+  border: none; }
+
+.btn-classic {
+  border: solid black 1px; }
+
+.btn-outline {
+  border: solid black 1px;
+  background-color: transparent; }
+
+/*# sourceMappingURL=TD8.1.css.map */

@@ -1,0 +1,81 @@
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #222;
+}
+
+
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    background-color: #39CCCC;
+    height: 35px;
+    margin: 0;
+    margin-bottom: 1px;
+}
+
+
+.px100{
+width : 100px;
+}
+.px320{
+width:320px;
+}
+.px480{
+width : 480px;
+}
+.pt100{
+width : 100pt;
+}
+.px72{
+width:72px;
+}
+.pt72{
+width:72pt;
+}
+.pourc20{
+width:20%;
+}
+.vw20{
+width:20vw;
+}
+.vh20 {
+width:20vh;
+}
+.em5{
+width:5em;
+}
+.em20{
+width:20em;
+}
+.cm5{
+width:5cm;
+}
+.cm30{
+width:30cm;
+}
+.px96 {
+width: 96px;
+}
+
+.inch1 {
+width: 1in;
+} 
+.inch2 {
+width: 2in;
+}
+.pourc100 {
+width: 100%;
+}
+.f36{
+font-size:36px
+}

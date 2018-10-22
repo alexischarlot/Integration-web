@@ -1,0 +1,39 @@
+.bt {
+  background-color: #FFDC00;
+  height: 2em;
+  line-height: 2em;
+}
+
+.jauge {
+    background-color: #39CCCC;
+    color: white;
+    padding: 0;
+    border: 0;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.b1{
+width:100px;
+padding:2px;
+border:6px dashed;
+border-color:magenta;
+
+
+}
+
+.j1{
+width: 116px;
+}
+
+.b2{
+width:30%;
+padding:10px;
+border:20px solid;
+border-color:lime;
+box-sizing: border-box;
+}
+
+.j2{
+width: calc( 30%  );
+}

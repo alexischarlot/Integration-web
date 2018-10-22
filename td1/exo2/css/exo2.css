@@ -1,0 +1,36 @@
+h2 {
+	font-weight: lighter;
+	font-size: 30px
+
+}
+small{
+	color: grey;
+}
+
+.gauche{
+	text-align:left;
+}
+.droite{
+	text-align:right;
+}
+.centre{
+	text-align:center;
+}
+.justifie{
+	text-align:justify;
+}
+
+.maj{
+	text-transform: uppercase;
+}
+
+.min{
+	text-transform: lowercase;
+}
+.square{
+	list-style: square;
+}
+
+.no{
+	list-style: none;
+}

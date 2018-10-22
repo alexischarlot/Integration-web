@@ -1,0 +1,27 @@
+$wi: 60%;
+$he:50%;
+$bc:magenta;
+$fs:2em;
+
+
+.content {
+    width:$wi;
+    height:$he;
+    background-color: aqua;
+    font-size: 20px;
+    padding: 5px;
+    h1{
+        font-size: $fs;
+        font-weight: 50px;
+        background-color: $bc;
+        
+        &:hover{
+        font-size: $fs +1em;
+        background-color: lighten($bc,30%);
+        }
+    }
+    @media screen and(min-width:70em){
+            background-color:lime;
+        
+    }
+}

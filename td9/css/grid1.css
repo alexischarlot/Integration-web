@@ -1,0 +1,41 @@
+
+body {
+  padding: 0;
+  height: 100vh;
+}
+/* Fichier de départ */
+.grid_item {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  text-align: center;
+  line-height: 100px;
+}
+
+.grid_container {
+  display: grid;
+ /*grid-template-columns:minmax(100px,15%) minmax(15rem,25rem) minmax(15rem,30%);
+  4.1
+ */
+ /*
+grid-template-columns:repeat(5,minmax(100px,200px));
+4.2
+*/
+
+/*
+grid-template-columns:repeat(5,minmax(100px,20%));
+4.3
+*/
+/*
+grid-template-columns:minmax(150px,25%) repeat(4,auto);
+4.4
+*/
+/*
+grid-template-columns:repeat(5,minmax(10rem,auto));
+4.5
+*/
+
+/*
+grid-template-columns:repeat(auto-fit,minmax(10rem,auto));
+4.6
+*/
+}
