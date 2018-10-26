@@ -3,6 +3,42 @@
 @import "_flex-nav";
 @import "_grille";
 
+.menu{
+    @include menu();
+    background-color: orange;
+    &>li{
+        &>a{
+        text-decoration:none;
+        color:black;
+        font-size : 2em;
+        
+        }
+        border:none;
+    margin-left:2%;
+    @media screen and (max-width:640px){
+        border-bottom:dashed 1px black;
+        width:93vw;
+        height:23vh;
+        text-align:center;
+    }
+    @media screen and (max-width:1080px) and (min-width:640px){
+       
+        border:none;
+        width:25vw;
+        
+        text-align:center;
+        }
+    
+        @media screen and (min-width:1080px){
+       
+            border:none;
+            margin:15px;
+            
+            }
+    }
+    
+    }
+
 .alert-success{
 
   @include alrt("success");
