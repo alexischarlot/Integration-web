@@ -1,0 +1,44 @@
+@import "_variables";
+
+
+@mixin s($a){
+    flex-basis: (($case * $a) + ($gutter * ($a - 1)));
+}
+
+
+
+@for $cols from 1 to $nb + 1{
+    .s#{$cols}{
+        @include s($cols);
+    }
+}
+
+@media screen and (min-width:992px){
+@for $cols from 1 to $nb + 1{
+    .l#{$cols}{
+        @include s($cols);
+    }
+}
+}
+
+@mixin row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row{
+    @include row();
+}   
+
+   
+@mixin col{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+} 
+.col{
+    @include col();
+}
+.col + .col{
+    margin-left: 1.6%;
+}

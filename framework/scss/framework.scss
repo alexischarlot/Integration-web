@@ -1,0 +1,63 @@
+@import "_alert";
+@import "_bouton";
+@import "_flex-nav";
+@import "_grille";
+
+.alert-success{
+
+  @include alrt("success");
+}
+
+.cefini{
+
+    @include alrt("danger");
+}
+
+.attention{
+
+    @include alrt("warning");
+}
+
+.message-info{
+  
+    @include alrt("info");
+}
+.btn-small{
+    @include taille("small");
+}
+.btn-medium{
+    @include taille("medium");
+}
+.btn-large{
+    @include taille("large");
+}
+
+.btn-red{
+    @include color(red);
+}
+.btn-blue{
+    @include color(blue);
+}
+.btn-green{
+    @include color(green);
+}
+
+.btn-flat{
+    @include style("flat");
+}
+.btn-classic{
+    @include style("classic");
+}
+.btn-outline{
+    @include style("outline");
+}
+
+.rouge{
+    @include couleur(red);
+}
+.bleu{
+    @include couleur(cyan);
+}
+.vert{
+    @include couleur(green);
+}

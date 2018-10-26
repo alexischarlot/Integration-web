@@ -1,0 +1,36 @@
+@import "_variables";
+
+@mixin alert {
+    border: solid 1px black;
+}
+
+@mixin alertdefault(){
+    background-color: darkgray;
+}
+
+@mixin success($color) {
+background-color: $color;
+
+}
+
+@mixin alrt($type) {
+    @include alertdefault();
+    @include alert;
+
+    @if ($type == "success"){
+        @include success($succes);
+    }
+    @else if($type == "danger"){
+        @include success($danger);
+    }
+    @else if($type == "info"){
+        @include success($information);
+    }
+    @else if($type == "warning"){
+        @include success($warning);
+    }
+    @else{
+        @include success(grey);
+    }
+}
+
