@@ -1,14 +1,16 @@
+@import 'variables';
+
 @mixin taille($size){
     @if($size=="small"){
-        height : 20px;
+        height : $heightSmall;
        
     }
     @else if($size =="medium"){
-        height : 75px;
+        height : $heightMedium;
       
     }
     @else if($size =="large"){
-        height : 200px;
+        height : $heightLarge;
        
     }
 }
