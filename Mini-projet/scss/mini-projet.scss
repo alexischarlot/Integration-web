@@ -19,20 +19,21 @@ h2{
 
 .bouton{
     display: flex;
-    width: 20%;
+    width: 200px;
     height:1em;
     border: black 1px solid;
     text-decoration: none;
     text-align: end;
     padding : 5px;
     border-radius: 10px;
-    background-color: aqua;
+
 
 }
 
 .head{
     display: flex;
     flex-direction: column;
+    
     border-bottom: grey 2px solid;
     border-right: grey 2px solid;
     .titre{
@@ -86,18 +87,16 @@ img{
     max-width: 1200px;
 }
 
-/*@for $i from 2 through 11{
-    @if #{$i}%2 >0{
-    .item:nth-child(#{$i}){
-        transform: rotate(1deg);
-    }
-}@else
-{
-    .item:nth-child(#{$i}){
-        transform: rotate(-1deg);
-    }
-}
-}*/
+
+        .item+ .right{
+            transform: rotate(0.7deg);
+        }
+ 
+        .item+ .left{
+            transform: rotate(-0.7deg);
+        }
+    
+
     .container{
         grid-template-columns: auto auto;
     }
