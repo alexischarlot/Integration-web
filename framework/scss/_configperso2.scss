@@ -1,0 +1,18 @@
+/* fichier de config perso 
+normalement l'utilisateur modifie le fichier _variables.scss */
+
+/*Couleurs des alertes */
+$succes:lime;
+$danger:red;
+$warning:lightyellow;
+$information:blue;
+
+/*Gestion de la grille */
+$nb:9;
+$case:6.86%;
+$gutter:1.6%;
+
+/*tailles des boutons */
+$heightSmall: 20px;
+$heightMedium: 75px;
+$heightLarge: 200px;
